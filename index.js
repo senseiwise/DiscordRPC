@@ -14,12 +14,12 @@ async function setActivity() {
         instance: false,
         buttons: [
             {
-                label: `Server`,
-                url: `https://discord.gg/pings`,
+                label: `Your social`,
+                url: `your url`,
             },
             {
-                label: `Twitter`,
-                url: `https://twitter.com/senseiwisee`,
+                label: `Your social`,
+                url: `your url`,
             }
         ]
     })
