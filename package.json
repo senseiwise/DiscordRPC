@@ -1,0 +1,27 @@
+{
+  "name": "discordrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senseiwise/DiscordRPC.git"
+  },
+  "keywords": [
+    "rpc",
+    "discord",
+    "richpresence"
+  ],
+  "author": "sensei wise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Senseiwise/DiscordRPC/issues"
+  },
+  "homepage": "https://github.com/Senseiwise/DiscordRPC#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}
