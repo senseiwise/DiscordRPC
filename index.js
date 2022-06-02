@@ -18,7 +18,7 @@ async function setActivity() {
                 url: `https://discord.gg/pings`,
             },
             {
-                label: `Twitter`,
+                label: `Twitter 🐦`,
                 url: `https://twitter.com/senseiwisee`,
             }
         ]
