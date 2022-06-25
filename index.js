@@ -27,7 +27,7 @@ async function setActivity() {
 
 RPC.on('ready', async () => {
     setActivity();
-    console.log(`The RPC has been connected to user senseiwise#0001`)
+    console.log(`The RPC has been connected to the local user. \nUse the shortcut CTRL + C and CTRL + L to stop the process\nIf you do not see the RPC on your local user please uninstall any extensions that use discord.\nIf you still don't see it go to discord > settings > activity status and turn on the toggle at the top ✅`)
     setInterval(() => {
         setActivity();
     }, 15 * 1000);
