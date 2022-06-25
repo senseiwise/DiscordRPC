@@ -1,4 +1,4 @@
-const clientId = '954396002410987581'
+const clientId = '986738145456447519'
 const DiscordRPC = require("discord-rpc");
 const RPC = new DiscordRPC.Client({ transport: 'ipc'});
 
@@ -7,15 +7,15 @@ DiscordRPC.register(clientId);
 async function setActivity() {
     if (!RPC) return;
     RPC.setActivity({
-        details: `Join Pingrhub`,
-        state: `Watching Pingrhub`,
-        largeImageKey: `pingr`,
-        largeImageText: `pingrhub`,
+        details: `senseiwise.xyz`,
+        state: `Watching Web Requests`,
+        largeImageKey: `sensei`,
+        largeImageText: `senseiwise.xyz`,
         instance: false,
         buttons: [
             {
-                label: `Server`,
-                url: `https://discord.gg/pings`,
+                label: `Sensei Wise ⚔️`,
+                url: `https://senseiwise.xyz`,
             },
             {
                 label: `Twitter 🐦`,
