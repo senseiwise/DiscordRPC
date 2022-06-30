@@ -7,19 +7,19 @@ DiscordRPC.register(clientId);
 async function setActivity() {
     if (!RPC) return;
     RPC.setActivity({
-        details: `senseiwise.xyz`,
-        state: `Watching Web Requests`,
+        details: `kids`,
+        state: `in basement`,
         largeImageKey: `sensei`,
-        largeImageText: `senseiwise.xyz`,
+        largeImageText: `in basement`,
         instance: false,
         buttons: [
             {
                 label: `Sensei Wise ⚔️`,
-                url: `https://senseiwise.xyz`,
+                url: 'https://www.youtube.com/',
             },
             {
                 label: `Twitter 🐦`,
-                url: `https://twitter.com/senseiwisee`,
+                url: `https://twitter.com/`,
             }
         ]
     })
